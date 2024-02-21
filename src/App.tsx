@@ -20,8 +20,8 @@ function App(): JSX.Element {
                     <Col>
                         <div
                             style={{
-                                width: 600,
-                                height: 800,
+                                width: 400,
+                                height: 600,
                                 backgroundColor: "red"
                             }}
                         >
@@ -36,8 +36,8 @@ function App(): JSX.Element {
                     <Col>
                         <div
                             style={{
-                                width: 600,
-                                height: 800,
+                                width: 400,
+                                height: 600,
                                 backgroundColor: "red"
                             }}
                         >
