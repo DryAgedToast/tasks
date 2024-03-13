@@ -14,9 +14,6 @@ const Colors = [
 
 export function ChangeColor(): JSX.Element {
     const [colorIndex, setColorIndex] = useState<number>(0);
-    function getColor({ color }: { color: number }): string {
-        return Colors[color];
-    }
     return (
         <div>
             {Colors.map((color: string, index = 0) => (
